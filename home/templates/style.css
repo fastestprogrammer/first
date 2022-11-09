@@ -16,15 +16,15 @@ textarea {
 
 
 .container {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
+  position: absolute;
+  width:50vw;
+  min-height: 50vh;
   padding: 2rem;
-  background-color: #fafafa;
+  background: transparent;
   overflow: hidden;
-  display: flex;
+  /* display: flex;
   align-items: flex-end;
-  justify-content: right;
+  justify-content: right; */
 }
 
 .form {
@@ -391,9 +391,4 @@ textarea.input {
 }
 #btnpic{
   align-content: flex-end;
-}
-.messlogo{
-  
-  display:block;
-  position: fixed;
 }
